@@ -2,7 +2,7 @@
 
 The classic Pacman game, made with HTML, Javascript, and CSS. Compiled with [ViteJS](https://vitejs.dev).
 
-[Demo](http://aodamuz.github.io/pacman)
+<a href="http://aodamuz.github.io/pacman" target="_blank">DEMO</a>
 
 ## Installation
 
