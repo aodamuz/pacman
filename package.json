@@ -1,0 +1,29 @@
+{
+  "name": "pacman",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A game in HTML, Javascript and CSS. Pacman Game",
+  "license": "MIT",
+  "author": "Mauricio Mendoza",
+  "keywords": [
+    "vite",
+    "game",
+    "pacman"
+  ],
+  "homepage": "https://github.com/aodamuz/pacman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aodamuz/pacman"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "vite": "^4.1.1"
+  }
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "BDCartoonShoutRegular";
+    src: url("../fonts/BD_Cartoon_Shout-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #000;
+}
+
+#app {
+    display: flex;
+    min-height: 97.7vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#pacman {
+    height: calc(450px * 1.5);
+    width: calc(342px * 1.5);
+}
