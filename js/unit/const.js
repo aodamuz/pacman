@@ -20,13 +20,13 @@ export const LEFT = 2
 
 // Audio
 export const AUDIO = [
-    { name: 'die', path: './audio/die.ogg' },
-    { name: 'ghost', path: 'audio/./eat-ghost.ogg' },
-    { name: 'pill', path: 'audio/./eat-pill.ogg' },
+    { name: 'die',    path: './audio/die.ogg' },
+    { name: 'ghost',  path: './audio/eat-ghost.ogg' },
+    { name: 'pill',   path: './audio/eat-pill.ogg' },
     { name: 'eating', path: './audio/eating.ogg' },
-    { name: 'live', path: './audio/live.ogg' },
-    { name: 'alarm', path: './audio/alarm.ogg' },
-    { name: 'start', path: './audio/start.ogg' }
+    { name: 'live',   path: './audio/live.ogg' },
+    { name: 'alarm',  path: './audio/alarm.ogg' },
+    { name: 'start',  path: './audio/start.ogg' }
 ]
 
 // Status
