@@ -43,17 +43,17 @@ export const GHOSTS = []
 // Colors
 export const COLOR = {
     used: [],
-    white: 'hsl(0,0%,100%)',
-    dark: 'hsl(0,0%,10%)',
-    black: 'hsl(0,0%,0%)',
-    yellow: 'hsl(55,100%,50%)',
-    blue: 'hsl(240,100%,50%)',
-    indigo: 'hsl(253,100%,20%)',
+    white: 'hsl(0, 0%, 100%)',
+    dark: 'hsl(0, 0%, 10%)',
+    black: 'hsl(0, 0%, 0%)',
+    yellow: 'hsl(55, 100%, 50%)',
+    blue: 'hsl(240, 100%, 50%)',
+    indigo: 'hsl(253, 100%, 20%)',
     ghosts: (() => {
         const arr = []
 
         for (let i = 0; i < 360; i++)
-            // 360/16 Representa 16 colores distribuidos dentro de un radio de 360 grados
+            // 360/16 It is the representation of 16 colors distributed in a radius of 360 degrees
             if ((i % Math.ceil(360 / 16)) === 0)
                 arr.push(`hsl(${i}, 100%, 50%)`)
 
